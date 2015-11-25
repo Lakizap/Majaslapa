@@ -1,0 +1,19 @@
+		<main class="col-md-4">
+			<h1>CV - Curriculum Vitae</h1>
+				<article>
+				<h1>Virsraksts1</h1>
+				<p>Teksts1</p>
+			</article>
+				<article>
+				<h1>Virsraksts2</h1>
+				<p>Teksts2</p>
+			</article>
+				<article>
+				<h1>Virsraksts3</h1>
+				<p>Teksts3</p>
+			</article>
+			<article>
+				<h1>Virsraksts4</h1>
+				<p>Teksts4</p>
+			</article>
+			</main>

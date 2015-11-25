@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html >
+<head>
+	<title>Raivis Akitis D3-3</title>
+	<link rel="stylesheet" href="faili/dizains.css">
+	<meta charset="UTF-8">
+	<link rel="icon" href="faili/favicon.ico" type="image/x-icon" />
+</head>
+<body>
+<style>
+body{background-image:url(faili/back.png)}
+</style>
+	<header>
+	<div>
+		<img src="faili/logo.jpg"width="600px" height="auto">
+</div>
+	</header>
+	<link rel="stylesheet" href="faili/boostrap/css/bootstrap.min.css">
+	<script src='faili/jQuery/jquerys.js'></script>
+	<script src="faili/boostrap/js/bootstrap.min.js"></script>
+	<script src="faili/skripti.js"></script>
+<nav>
+	<div class="izv">
+	<ul>
+		<li><a href = "index.html">Galvena lapa</a></li>
+		<li><a href = "galerija.html">Galerija</a></li>
+		<li><a href = "anketa.html">Anketa</a></li>
+		<li><a href = "kontakti.html">Kontakti</a></li>
+	</ul>
+</nav>  
+	<div class="centrsa">
+
+	<h1>Anketa</h1>
+	<hr>
+	<form id="anketa">
+<label for="aktiv">Vai piedalies šajā aktivitātē:</label>
+<div class="radio">
+  <label><input type="radio" name="optradio">Jā</label>
+</div>
+<div class="radio">
+  <label><input type="radio" name="optradio">Nē</label>
+</div>
+<div class="radio">
+  <label><input type="radio" name="optradio">Vēlētos piedalīties</label>
+</div>
+<label for="darb">Redzējis darbībā:</label>
+<div class="radio">
+  <label><input type="radio" name="optradio">Neesmu</label>
+</div>
+<div class="radio">
+  <label><input type="radio" name="optradio">Esmu</label>
+</div>
+<label for="radio">Ir pazīstams kāds modeļu būvētājs:</label>
+<div class="radio">
+  <label><input type="radio" name="optradio">Neviens</label>
+</div>
+<div class="radio">
+  <label><input type="radio" name="optradio">1</label>
+</div>
+<div class="radio">
+  <label><input type="radio" name="optradio">2</label>
+</div>
+<div class="radio">
+  <label><input type="radio" name="optradio">3</label>
+</div>
+<div class="radio">
+  <label><input type="radio" name="optradio">>3</label>
+</div>
+<div class = "form-group">
+						 <label for="vards">Vārds:</label>
+						 <input type = "text" name = "vards" class="form-control" placeholder="Ievadiet vārdu" id ="read4">
+
+
+						 <label for="uzvards">Uzvārds:</label>
+						 <input type = "text" name = "uzvards" class="form-control" placeholder="Ievadiet uzvārdu" id ="read4">
+					</div>
+						<div>
+	<label>Dzimums:</label>
+<form action="dzim">
+<label class="radio-inline"><input type="radio" name="dzim">Vīrietis</label>
+<label class="radio-inline"><input type="radio" name="dzim">Sieviete</label>
+						</select>
+						
+					</div>	
+<label>Modeļu klase:</label>
+	<select class="form-control">
+    <option value="brivlidojosie">Brīvlidojošie</option>
+    <option value="radiovadamie">Radiovadāmie</option>
+    <option value="iekstelpu">Iekštelpu</option>
+</select>
+<br/>
+<label >Lidmodelisms jums:</label>
+						<div class="input-group  has-success" id = "test1">
+					    <div class="input-group-addon">1.</div>
+					    <input type="text" name = 'correct_answer' class="form-control" placeholder="Ievadiet atbildi" id ="read">
+				    </div><br/>
+				<div class="alert alert-success" id = "error">
+					<strong>Neprecīza atbilde!</strong>Ievadiet patīk.
+				</div>
+				<div class="alert alert-success" id = "error1">
+					<strong>Tieši tā!</strong>
+				</div>
+					<label>Miļākās lidmašīnas nosaukums:</label>
+					    	<div class="input-group has-warning">
+					    <div class="input-group-addon">
+						<input type="checkbox">
+						</div>
+					    <input type="text" name = 'answer2' class="form-control" placeholder="ievadiet nosaukumu"id="read1">
+				    </div>
+					<div class="alert alert-success" id = "error2">
+					<strong>Paldies!</strong>
+				</div>
+					<br/>
+					<label>Tālrunis:</label>
+				    	<div class="input-group has-warning">
+					    <input type="text" name = 'answer3' class="form-control" placeholder="Ievadiet numuru" id="read2">
+				    </div>
+					<div class="alert alert-success" id = "error3">
+					<strong>Liels paldies!</strong>
+				</div>
+					<br/>
+					<label>E-pasts:</label>
+				    	<div class="input-group has-warning">
+					    <input type="text" name = 'answer4' class="form-control" placeholder="Ievadiet E-pastu" id="read3">
+				    </div><br/>
+	<div>
+	<label for="Piezimes">Piezīmes:</label>
+	<textarea name="mpiezimes" id="mpiezimes" rows="6" cols="50"></textarea>
+	</div>
+	<div id="nosutit">
+	<input type="submit" value="Sūtīt">
+	</div>
+	</div>
+		</form>
+
+	
+
+</body>
+<footer>
+<div>
+		<img src="faili/foot.jpg"width="100px" height="auto">
+</div>
+<div class="kajenes-centrs">
+  Raivis
+  <p>E-pasts: <a href="mailto:raivx20@inbox.lv">
+  raivx20@inbox.lv</a></p>
+  </div>
+</footer>
+</html>
